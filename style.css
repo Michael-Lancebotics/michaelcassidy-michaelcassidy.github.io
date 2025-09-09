@@ -1,3 +1,13 @@
+.onshape-embed {
+    margin-top: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(25,118,210,0.08);
+}
+.project h3 {
+    margin-top: 0;
+    color: #1565c0;
+}
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
