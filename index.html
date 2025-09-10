@@ -10,7 +10,8 @@
 <body>
     <header class="no-bar">
         <div class="header-content">
-            <img src="headshot.jpg" alt="Michael Cassidy headshot" class="headshot">
+            <!-- Updated headshot path -->
+            <img src="resources/headshot.jpg" alt="Michael Cassidy headshot" class="headshot">
             <div>
                 <h1>Michael Cassidy</h1>
                 <p class="subtitle">Mechatronics Engineering Student @ Queen's University<br>Seeking Internship Opportunities</p>
@@ -19,6 +20,7 @@
                     <a href="#experience">Experience</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
+                    <a href="#achievements">Achievements</a>
                     <a href="#contact">Contact</a>
                 </nav>
             </div>
@@ -33,7 +35,22 @@
             <h2>Experience</h2>
             <ul class="exp-list">
                 <li>
-                    <strong>Software Engineer Intern, Teranet (2023-2025)</strong><br>
+                    <strong>Director of Aeromechanics, Queen's Aerospace Design Team (2025-Present)</strong><br>
+                    <ul>
+                        <li>Lead 20-person subteam for mechanical design and construction of fixed-wing aircraft for AIAA competition.</li>
+                        <li>CAD modeling, structural analysis, manufacturing, aerodynamic modeling, and carbon fibre layups.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>President of Technical Operations, Queen's VEXU Robotics Team (2022-2025)</strong><br>
+                    <ul>
+                        <li>Led 80+ person technical team across mechanical, electrical, and software.</li>
+                        <li>Mechanical development of four robots, won VEX AI Skills World Champion and Build Award.</li>
+                        <li>Modeled/integrated designs, applied kinematic/dynamic analysis, rapid prototyping, and mentored team members.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Software Engineer Intern, Teranet (Summers of 2023-2025)</strong><br>
                     <ul>
                         <li>Led development of 12 Java REST APIs, reducing request times by over a minute for key operations.</li>
                         <li>Developed integrated applications, cutting response times by 100ms across all requests.</li>
@@ -50,18 +67,11 @@
                     </ul>
                 </li>
                 <li>
-                    <strong>Director of Aeromechanics, Queen's Aerospace Design Team (2025-Present)</strong><br>
+                    <strong>Research Assistant, Queen's University (July 2021 - August 2021)</strong><br>
                     <ul>
-                        <li>Lead 20-person subteam for mechanical design and construction of fixed-wing aircraft for AIAA competition.</li>
-                        <li>CAD modeling, structural analysis, manufacturing, aerodynamic modeling, and carbon fibre layups.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>President of Technical Operations, Queen's VEXU Robotics Team (2022-2025)</strong><br>
-                    <ul>
-                        <li>Led 80+ person technical team across mechanical, electrical, and software.</li>
-                        <li>Mechanical development of four robots, won VEX AI Skills World Champion and Build Award.</li>
-                        <li>Modeled/integrated designs, applied kinematic/dynamic analysis, rapid prototyping, and mentored team members.</li>
+                        <li>Worked with Prof. Robin Dawes to develop a system to streamline finding related study resources for students.</li>
+                        <li>Researched and developed natural language processing algorithms to compare curriculum documents and sort them by subject matter.</li>
+                        <li>Achieved a 99.6% success rate in classifying documents by course combining different data analytics techniques.</li>
                     </ul>
                 </li>
             </ul>
@@ -77,17 +87,51 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>Onshape Interactive CAD Viewer</h3>
-                <p>Explore my mechanical design work interactively below:</p>
-                <div class="onshape-embed">
-                    <iframe width="100%" height="500" allowfullscreen allow="fullscreen"
-                            src="https://cad.onshape.com/documents/91374f1d910d04d085c1168b/embed?linkType=embed">
-                        </iframe>
-                    </div>
-                    </iframe>
-                </div>
+            <div class="project" style="margin-bottom: 48px;">
+                <h3>Fixed-Wing Aircraft Design <span style="font-weight:normal; color:#666; font-size:0.9em;">(2023-2024)</span></h3>
+                <p>Led the mechanical design and manufacturing of a fixed-wing aircraft for the AIAA competition, including aerodynamic modeling, carbon fibre layups, and structural analysis.</p>
+                <img src="resources/aircraft1.png" alt="Aircraft Project 1" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px; margin-bottom:1em;">
+                <img src="resources/aircraft2.png" alt="Aircraft Project 2" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px;">
             </div>
+            <div class="project" style="margin-bottom: 48px;">
+                <h3>2025 Robot Assembly <span style="font-weight:normal; color:#666; font-size:0.9em;">(2024-2025)</span></h3>
+                <p>Designed and built a competitive robot for the VEXU World Championship, focusing on advanced mechanical systems, CAD modeling, and rapid prototyping. Led a team through the full engineering cycle from concept to competition.</p>
+                <img src="resources/2025Robot1.png" alt="2025 Robot 1" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px; margin-bottom:1em;">
+                <img src="resources/2025Robot2.png" alt="2025 Robot 2" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px;">
+            </div>
+            <div class="project" style="margin-bottom: 48px;">
+                <h3>Stringray Reconstruction Project <span style="font-weight:normal; color:#666; font-size:0.9em;">(2023)</span></h3>
+                <p>Manufactured a Stringray drone using advanced carbon fibre layups and custom 3D-printed molds. Contributed to the reconstruction and fabrication process, ensuring structural integrity and lightweight design.</p>
+                <img src="resources/Stingray.png" alt="Stringray Drone" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px;">
+            </div>
+            <div class="project" style="margin-bottom: 48px;">
+                <h3>Odom Board PCB Design <span style="font-weight:normal; color:#666; font-size:0.9em;">(2023)</span></h3>
+                <p>Designed a custom odometry PCB for robotics applications, featuring high-precision sensor integration and compact layout for reliable position tracking.</p>
+                <img src="resources/OdomBoard.JPG" alt="Odom Board PCB" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px;">
+            </div>
+            <div class="project" style="margin-bottom: 48px;">
+                <h3>2024 VEXU Swerve Drive Robot <span style="font-weight:normal; color:#666; font-size:0.9em;">(2023-2024)</span></h3>
+                <p>Developed and built a swerve drive robot for the 2024 VEXU season, featuring custom swerve modules and advanced motion control. Integrated mechanical, electrical, and software systems for high-performance competition.</p>
+                <img src="resources/2024Robot.png" alt="2024 VEXU Swerve Drive Robot" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px; margin-bottom:1em;">
+                <img src="resources/Swerve.gif" alt="Swerve Drive Animation" style="width:100%; max-width:600px; display:block; margin:auto; border-radius:8px;">
+            </div>
+            <!-- Add more projects here as needed -->
+        </section>
+        <section id="achievements">
+            <h2>Achievements & Competitions</h2>
+            <ul class="achievements-list">
+                <li><strong>VEX AI Skills World Champion</strong> (2024) – Led the team to win the world championship in AI robotics skills.<br>
+                    <img src="resources/WorldSkillsChampion.png" alt="VEX AI Skills World Champion Award" style="width:100%; max-width:300px; display:block; margin:auto; border-radius:8px; margin-top:0.5em;">
+                </li>
+                <li><strong>VEXU Build Award</strong> (2024) – Recognized for outstanding robot design and construction.<br>
+                    <img src="resources/BuildAward.png" alt="VEXU Build Award" style="width:100%; max-width:300px; display:block; margin:auto; border-radius:8px; margin-top:0.5em;">
+                    <img src="resources/BuildAwardTeam.png" alt="VEXU Build Award" style="width:100%; max-width:300px; display:block; margin:auto; border-radius:8px; margin-top:0.5em;">
+                </li>
+                <li><strong>Schulich Leader Scholar</strong> (2021-Present) – Awarded prestigious scholarship for STEM leadership and academic excellence.</li>
+                <li><strong>AIAA Design-Build-Fly Competition</strong> (2024) – Designed and manufactured a fixed-wing aircraft for international competition.</li>
+                <li><strong>Queen's University Dean's List</strong> (2021-2024) – Consistent academic achievement in engineering.</li>
+                <!-- Add more achievements and competitions as needed -->
+            </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
