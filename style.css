@@ -1,3 +1,18 @@
+@media (max-width: 700px) {
+    /* ...existing responsive styles... */
+    /* Shrink 2025 robot images for mobile */
+    .project img[src*="2025Robot1.png"],
+    .project img[src*="2025Robot2.png"] {
+        height: 140px !important;
+        max-width: 48% !important;
+        width: auto !important;
+        object-fit: contain !important;
+        margin: 0 2px !important;
+    }
+    .project > div[style*="display: flex"] {
+        max-width: 100% !important;
+    }
+}
 /* Responsive layout improvements for mobile */
 @media (max-width: 700px) {
     body {
